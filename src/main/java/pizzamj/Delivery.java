@@ -20,11 +20,11 @@ public class Delivery {
         BeanUtils.copyProperties(this, delivered);
         delivered.publishAfterCommit();
 
-        try {
-            Thread.sleep((long) (400 + Math.random() * 300));
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            Thread.sleep((long) (400 + Math.random() * 300));
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
 
 
     }
